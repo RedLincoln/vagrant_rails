@@ -23,4 +23,4 @@ $ cd vagrant_rails
 
 Working directory on the guest machine is <code>/vagrant</code> and on the host machine is the directory where <code>Vagrantfile</code> is. In a terminal, to boot up the machine use <code>vagrant up</code> and to SSH into it use <code>vagrant ssh</code>. Working directory is in <code>/vagrant</code>.
 
-To be able to access the rails application from your host machine use <code>rails s -b 0.0.0.0</code> since port 3000 is forwarded. Server should be up in <code>localhost:3000</code>
+To be able to access the rails application from your host machine use <code>rails s -b 0.0.0.0</code> since port 3000 is forwarded. Server should be up in <code>localhost:3000</code>. In case port 3000 is already in use either kill the process using it or change the port to use in the Vagrantfile.
