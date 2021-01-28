@@ -75,4 +75,5 @@ Vagrant.configure("2") do |config|
   config.vm.provision :shell, path: "install-rvm.sh", args: "stable", privileged: false
   config.vm.provision :shell, path: "install-ruby.sh", args: "3.0.0 rails", privileged: false
   config.vm.provision :shell, path: "install-yarn.sh"
+  config.vm.provision :shell, path: "install-postgresql.sh"
 end
