@@ -5,7 +5,7 @@
 <ul>
   <li>Vagrant box: ubuntu/bionic64</li>
   <li>Ruby Version Manager (RVM)</li>
-  <li>Ruby 3.0.0</li>
+  <li>Ruby 2.6.6</li>
   <li>Rails 6.1.1</li>
   <li>Node.js 15.x</li>
   <li>Yarn</li>
